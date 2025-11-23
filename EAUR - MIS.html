@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://mis.eaur.ac.rw/aplySchlrshp.php?Apply -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./EAUR - MIS_files/Eaur_logo.png" type="image/x-icon">
+    <title>EAUR - MIS</title>
+
+    <!-- Vendor css -->
+    <link rel="stylesheet" href="./EAUR - MIS_files/materialdesignicons.min.css">
+
+    <!-- Base css with customised bootstrap included -->
+    <link rel="stylesheet" href="./EAUR - MIS_files/miri-ui-kit-free.css">
+
+    <!-- Stylesheet for demo page specific css -->
+    <link rel="stylesheet" href="./EAUR - MIS_files/demo.css">
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("December 19, 2025 23:59:59").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script><link rel="stylesheet" href="./EAUR - MIS_files/select2.min.css"><style>
+/*
+.select2-dropdown {top: 22px !important; left: 8px !important;}
+*/
+</style></head>
+
+
+
+<body class="login-page">
+<header class="miri-ui-kit-header header-no-bg-img header-navbar-only">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="https://mis.eaur.ac.rw/index.php"><b style="color:#DEB887;font-family: centaur;font-size:45px;"><!--EAST AFRICAN UNIVERSITY RWANDA - !--><b>EAUR MIS</b></b> <!--<img src="src/images/Eaur_logo.png" alt="logo" style="width:100%;">!--> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#miriUiKitNavbar" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="miriUiKitNavbar">
+                    <div class="navbar-nav ml-auto">
+					
+				
+					<li class="nav-item dropdown">
+                            <a href="https://mis.eaur.ac.rw/aplySchlrshp.php?Apply#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <b style="font-family: centaur;font-size:18px;color:#f5b041;">Apply for Scholarship/Track</b>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right ">
+                                <a href="https://mis.eaur.ac.rw/aplySchlrshp.php?Apply" class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-edit"></i>Application form</a>
+								<a href="https://mis.eaur.ac.rw/Chck.php" class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-search"></i>Track application</a>
+								
+							<!--	
+                                <a href="#" class="dropdown-item"><i class="dropdown-item-icon mdi mdi-shield-account-outline"></i>Apply for Certificate</a>								
+                             !-->
+							
+							</div>
+                        </li>
+                       
+					
+					
+										<li class="nav-item dropdown">
+						<a href="https://mis.eaur.ac.rw/aplySchlrshp.php?Apply#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+							<b style="font-family: centaur;font-size:18px;">Apply for <b style="color:#DEB887;">JANUARY</b> Intake/Track</b>
+						</a>
+							<div class="dropdown-menu dropdown-menu-right ">
+                                <a href="https://mis.eaur.ac.rw/apply.php?bc" class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-edit"></i>Apply for Bachelors</a>
+                                <a href="https://mis.eaur.ac.rw/apply.php?dp" class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-edit"></i>Apply for Diploma</a>
+								<a href="https://mis.eaur.ac.rw/track.php" class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-search"></i>Track application</a>
+                                <!--<a href="#" class="dropdown-item"><i class="dropdown-item-icon mdi mdi-shield-account-outline"></i>Apply for Certificate</a>!-->
+                            </div>
+					</li>
+										
+												
+						 
+						
+						
+						
+						<!--
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <b style="font-family: centaur;font-size:18px;">Contact</b>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right ">
+                                <a href="#" class="dropdown-item"><i class="mdi mdi-phone"></i><b style="color:#808000;font-family: centaur;"> &nbsp;+250 786 976 616</b></a>
+								<a href="#" class="dropdown-item"><i class="mdi mdi-email"></i><b style="color:#808000;font-family: centaur;"> &nbsp;infos@eaur.ac.rw </b></a>
+							</div>
+                        </li>
+						!-->
+						
+						
+						<!--
+						<li class="nav-item">
+                            <a class="nav-link" href="https://elearning.eaur.ac.rw/"><b style="font-family: centaur;font-size:18px;" target="_BLANK">E-Learning</b></a>
+                        </li>
+						!-->
+						
+						
+						
+						
+						
+						<!--
+						<li class="nav-item">
+							<a class="nav-link" href="http://bootstrapdash.com/demo/miri-ui-kit-pro/documentation/documentation.html" target="_blank">Docs</span></a>
+						</li>
+						!-->
+						
+						
+						
+						
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://mis.eaur.ac.rw/Acs.php"><b style="font-family: centaur;font-size:18px;">Entrance</b></a>
+                        </li>
+
+                       
+						
+						<!--
+						<form action="#" class="form-inline ml-lg-3">
+							<button class="btn btn-danger">Download Now</button>
+						</form>
+						!-->
+						
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>    <div class="col-md-12" style="background-color:#101940;">
+	
+        <div class="" style="margin-top:0%;">
+            <!--<h4 class="text-center text-white ">USER ACCESS</h4>!-->            
+										
+				
+								<form id="SbmtApRqst" action="https://mis.eaur.ac.rw/SbmtApRqstSchlr.php" method="post" class="form-horizontal " enctype="multipart/form-data">
+				<div class="col-md-12">
+				<input type="hidden" id="PgrType" name="PgrType" placeholder="" class="form-control" value="1" style="height:30px;font-size:12px;">
+				<div class="col-md-12">
+				<div class="row">
+				<div class="col-md-3" style="">
+				<img src="./EAUR - MIS_files/Eaur_logo.png" alt="logo" style="width:35%;">
+				</div>
+				<div class="col-md-9" style="margin-top:5%;">
+				<center>
+				<b style="color:#DEB887;font-size:27px;font-family: centaur;">
+				EAUR SCHOLARSHIP APPLICATION FORM | January [2025-2026]				<br>
+				<b style="font-size:32px;">You're remaining with : <b id="demo" style="color:#DCCD17;">29d 2h 58m 50s </b></b>
+				</b>
+				</center>
+				</div>
+				</div>
+				</div>
+				
+				
+				<!--
+				<div style='padding: 20px;border-radius: 1px;border: 0.3px solid #73AD21;margin-top:1%;margin-bottom:1%;' class="col-md-12">
+				<b style="font-size: 20px;color:#FFF8DC;"><center><u>NOTE FOR YOUR CONSIDERATION</u></center></b><br />
+				<p style="font-family: 'Times New Roman', Times, serif;font-size: 15px;font-weight:bold;color:#FFF8DC;">
+				Dear prospective student, after submitting your application, a code will appear on your screen. Save this code, as you won’t be allowed to take the exam without it. 
+				Ensure you have access to the phone number and email used for your application to receive updates.<br /><br />
+				
+				Remember to come with the following documents, at the day of your Exam : 
+				<br />1. Copy of NATIONAL ID
+				<br />2. Copy of High school certificate S6 or Result slip
+				<br />3. Copy of Bank slip payment of 5,000 FRW - Application fees ( 00058-00672691-39 : Bank of Kigali )
+				<br /><br />
+				<b style="font-size:24px;color:#FFF;"><u>NOTE</u> : </b> 
+				<b style="font-size:20px;color:#FFEBCD;"> 
+				EXAM test will take place at our both campuses (KIGALI & NYAGATARE), on 23 April, 2025 [ 8:00 AM ]
+				</b>
+				</b>
+				</p>
+				</div>
+				
+				
+				!-->
+				
+				<br><br>
+				
+				
+				
+				
+				<div class="row">
+				
+				<div class="col-md-6">
+				<center><b style="color:white;font-size:17px;">Applicant Personal Info</b></center>
+				<hr class="col-md-12" style="background-color:white;">
+				<b style="color:#DEB887;">Personal Info</b><br><br>
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label"><b style="color:white;">Family Name</b> <span class="text-danger" style="color:red;">*</span></label>
+                <div class="form-group ">
+                    <input type="text" id="AplcntFamNm" name="AplcntFamNm" placeholder="Write Family Name" class="form-control" required="" style="height:30px;font-size:12px;">
+                </div>
+				</div>
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label"><b style="color:white;">First Name/Surname</b> <span class="text-danger" style="color:red;">*</span></label>
+                <div class="form-group">
+                    <input type="text" id="AplcntFrstNm" name="AplcntFrstNm" placeholder="Write First Name/Surname" class="form-control" required="" style="height:30px;font-size:12px;">
+                </div>
+				</div>
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label"><b style="color:white;">National ID</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<input type="text" id="NidPnmbr" name="NidPnmbr" placeholder="Write National ID" minlength="16" maxlength="16" class="form-control" required="" style="height:30px;font-size:12px;">
+				</div>
+				</div>
+				 				 
+				 <div class="form-group">
+					<label class="col-md-12 control-label"><b style="color:white;">Gender</b> <span class="text-danger" style="color:red;">*</span></label>
+					<div class="form-group">
+						<select id="gndr" name="gndr" class="slct select2-hidden-accessible" style="width: 100%;" data-placeholder="Select Gender" required="" tabindex="-1" aria-hidden="true">
+							<option value=""></option>
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+						</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-gndr-container"><span class="select2-selection__rendered" id="select2-gndr-container" title="Female"><span class="select2-selection__clear">×</span>Female</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+					</div>
+				 </div>		 
+				
+				 
+				 <!--
+				 <div class="form-group">
+					<label class="col-md-12 control-label" ><b style="color:white;">Date of Birth</b> <span class="text-danger" style="color:red;">*</span></label>
+					<div class="form-group">					
+					<select id="DtYr" name="DtYr" class="slct" style="width: 35%;" data-placeholder="Year" required>
+							<option value=""></option>
+												</select>
+					
+					</div>
+				 </div>
+				 !-->
+				 				 
+				<div class="form-group">
+				<label class="col-md-12 control-label"><b style="color:white;">Valid Phone number(starting from: 07XXXXXXXX)</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<input type="text" id="AplcntPhn" name="AplcntPhn" placeholder=" valid Phone number (no spaces between numbers. Eg: 07XXXXXXXX)" class="form-control" minlength="10" maxlength="10" required="" style="height:30px;font-size:12px;">
+				</div>
+				</div>
+				
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label"><b style="color:white;">Valid Personal Email</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<input type="email" id="AplcntEml" name="AplcntEml" placeholder="Write valid Personal Email" class="form-control" required="" style="height:30px;font-size:12px;">
+				</div>
+				</div>
+				
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label"><b style="color:white;">Sector Address</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<select id="SctId" name="SctId" class="slct select2-hidden-accessible" style="width: 100%;" data-placeholder="Sector Address" required="" tabindex="-1" aria-hidden="true">
+					<option value=""></option>
+												<option value="203">1. Base [ District: Rulindo ]</option>
+														<option value="346">2. Bigogwe [ District: Nyabihu ]</option>
+														<option value="399">3. Boneza [ District: Rutsiro ]</option>
+														<option value="385">4. Bugarama [ District: Rusizi ]</option>
+														<option value="384">5. Bugeshi [ District: Rubavu ]</option>
+														<option value="167">6. Bukure [ District: Gicumbi ]</option>
+														<option value="96">7. Bumbogo [ District: Gasabo ]</option>
+														<option value="131">8. Bungwe [ District: Burera ]</option>
+														<option value="204">9. Burega [ District: Rulindo ]</option>
+														<option value="270">10. Buruhukiro [ District: Nyamagabe ]</option>
+														<option value="298">11. Busanze [ District: Nyaruguru ]</option>
+														<option value="287">12. Busasamana [ District: Nyanza ]</option>
+														<option value="373">13. Busasamana [ District: Rubavu ]</option>
+														<option value="148">14. Busengo [ District: Gakenke ]</option>
+														<option value="358">15. Bushekeri [ District: Nyamasheke ]</option>
+														<option value="359">16. Bushenge [ District: Nyamasheke ]</option>
+														<option value="205">17. Bushoki [ District: Rulindo ]</option>
+														<option value="188">18. Busogo [ District: Musanze ]</option>
+														<option value="288">19. Busoro [ District: Nyanza ]</option>
+														<option value="386">20. Butare [ District: Rusizi ]</option>
+														<option value="132">21. Butaro [ District: Burera ]</option>
+														<option value="206">22. Buyoga [ District: Rulindo ]</option>
+														<option value="310">23. Bweramana [ District: Ruhango ]</option>
+														<option value="387">24. Bweyeye [ District: Rusizi ]</option>
+														<option value="333">25. Bwira [ District: Ngororero ]</option>
+														<option value="319">26. Bwishyura [ District: Karongi ]</option>
+														<option value="168">27. Bwisige [ District: Gicumbi ]</option>
+														<option value="311">28. Byimana [ District: Ruhango ]</option>
+														<option value="169">29. Byumba [ District: Gicumbi ]</option>
+														<option value="149">30. Coko [ District: Gakenke ]</option>
+														<option value="289">31. Cyabakamyi [ District: Nyanza ]</option>
+														<option value="150">32. Cyabingo [ District: Gakenke ]</option>
+														<option value="297">33. Cyahinda [ District: Nyaruguru ]</option>
+														<option value="133">34. Cyanika [ District: Burera ]</option>
+														<option value="271">35. Cyanika [ District: Nyamagabe ]</option>
+														<option value="374">36. Cyanzarwe [ District: Rubavu ]</option>
+														<option value="360">37. Cyato [ District: Nyamasheke ]</option>
+														<option value="134">38. Cyeru [ District: Burera ]</option>
+														<option value="258">39. Cyeza [ District: Muhanga ]</option>
+														<option value="207">40. Cyinzuzi [ District: Rulindo ]</option>
+														<option value="170">41. Cyumba [ District: Gicumbi ]</option>
+														<option value="208">42. Cyungo [ District: Rulindo ]</option>
+														<option value="189">43. Cyuve [ District: Musanze ]</option>
+														<option value="82">44. Fumbwe [ District: Rwamagana ]</option>
+														<option value="190">45. Gacaca [ District: Musanze ]</option>
+														<option value="246">46. Gacurabwenge [ District: Kamonyi ]</option>
+														<option value="111">47. Gahanga [ District: Kicukiro ]</option>
+														<option value="42">48. Gahara [ District: Kirehe ]</option>
+														<option value="83">49. Gahengeri [ District: Rwamagana ]</option>
+														<option value="30">50. Gahini [ District: Kayonza ]</option>
+														<option value="135">51. Gahunga [ District: Burera ]</option>
+														<option value="151">52. Gakenke [ District: Gakenke ]</option>
+														<option value="284">53. Gasaka [ District: Nyamagabe ]</option>
+														<option value="16">54. Gasange [ District: Gatsibo ]</option>
+														<option value="191">55. Gashaki [ District: Musanze ]</option>
+														<option value="54">56. Gashanda [ District: Ngoma ]</option>
+														<option value="152">57. Gashenyi [ District: Gakenke ]</option>
+														<option value="389">58. Gashonga [ District: Rusizi ]</option>
+														<option value="1">59. Gashora [ District: Bugesera ]</option>
+														<option value="192">60. Gatagara [ District: Musanze ]</option>
+														<option value="272">61. Gatare [ District: Nyamagabe ]</option>
+														<option value="136">62. Gatebe [ District: Burera ]</option>
+														<option value="112">63. Gatenga [ District: Kicukiro ]</option>
+														<option value="43">64. Gatore [ District: Kirehe ]</option>
+														<option value="97">65. Gatsata [ District: Gasabo ]</option>
+														<option value="17">66. Gatsibo [ District: Gatsibo ]</option>
+														<option value="334">67. Gatumba [ District: Ngororero ]</option>
+														<option value="68">68. Gatunda [ District: Nyagatare ]</option>
+														<option value="400">69. Gihango [ District: Rutsiro ]</option>
+														<option value="390">70. Giheke [ District: Rusizi ]</option>
+														<option value="361">71. Gihombo [ District: Nyamasheke ]</option>
+														<option value="391">72. Gihundwe [ District: Rusizi ]</option>
+														<option value="99">73. Gikomero [ District: Gasabo ]</option>
+														<option value="113">74. Gikondo [ District: Kicukiro ]</option>
+														<option value="220">75. Gikonko [ District: Gisagara ]</option>
+														<option value="388">76. Gikundamvura [ District: Rusizi ]</option>
+														<option value="375">77. Gisenyi [ District: Rubavu ]</option>
+														<option value="233">78. Gishamvu [ District: Huye ]</option>
+														<option value="320">79. Gishari [ District: Karongi ]</option>
+														<option value="84">80. Gishari [ District: Rwamagana ]</option>
+														<option value="221">81. Gishubi [ District: Gisagara ]</option>
+														<option value="321">82. Gishyita [ District: Karongi ]</option>
+														<option value="322">83. Gisovu [ District: Karongi ]</option>
+														<option value="100">84. Gisozi [ District: Gasabo ]</option>
+														<option value="392">85. Gitambi [ District: Rusizi ]</option>
+														<option value="121">86. Gitega [ District: Nyarugenge ]</option>
+														<option value="323">87. Gitesi [ District: Karongi ]</option>
+														<option value="171">88. Giti [ District: Gicumbi ]</option>
+														<option value="18">89. Gitoki [ District: Gatsibo ]</option>
+														<option value="137">90. Gitovu [ District: Burera ]</option>
+														<option value="335">91. Hindiro [ District: Ngororero ]</option>
+														<option value="101">92. Jabana [ District: Gasabo ]</option>
+														<option value="98">93. Jali [ District: Gasabo ]</option>
+														<option value="154">94. Janja [ District: Gakenke ]</option>
+														<option value="55">95. Jarama [ District: Ngoma ]</option>
+														<option value="347">96. Jenda [ District: Nyabihu ]</option>
+														<option value="348">97. Jomba [ District: Nyabihu ]</option>
+														<option value="2">98. Juru [ District: Bugesera ]</option>
+														<option value="259">99. Kabacuzi [ District: Muhanga ]</option>
+														<option value="312">100. Kabagari [ District: Ruhango ]</option>
+														<option value="31">101. Kabare [ District: Kayonza ]</option>
+														<option value="32">102. Kabarondo [ District: Kayonza ]</option>
+														<option value="19">103. Kabarore [ District: Gatsibo ]</option>
+														<option value="349">104. Kabatwa [ District: Nyabihu ]</option>
+														<option value="336">105. Kabaya [ District: Ngororero ]</option>
+														<option value="107">106. Kacyiru [ District: Gasabo ]</option>
+														<option value="273">107. Kaduha [ District: Nyamagabe ]</option>
+														<option value="362">108. Kagano [ District: Nyamasheke ]</option>
+														<option value="114">109. Kagarama [ District: Kicukiro ]</option>
+														<option value="337">110. Kageyo [ District: Ngororero ]</option>
+														<option value="175">111. Kageyo [ District: Gicumbi ]</option>
+														<option value="20">112. Kageyo [ District: Gatsibo ]</option>
+														<option value="138">113. Kagogo [ District: Burera ]</option>
+														<option value="3">114. Kamabuye [ District: Bugesera ]</option>
+														<option value="274">115. Kamegeli [ District: Nyamagabe ]</option>
+														<option value="393">116. Kamembe [ District: Rusizi ]</option>
+														<option value="155">117. Kamubuga [ District: Gakenke ]</option>
+														<option value="376">118. Kanama [ District: Rubavu ]</option>
+														<option value="172">119. Kaniga [ District: Gicumbi ]</option>
+														<option value="363">120. Kanjongo [ District: Nyamasheke ]</option>
+														<option value="115">121. Kanombe [ District: Kicukiro ]</option>
+														<option value="222">122. Kansi [ District: Gisagara ]</option>
+														<option value="122">123. Kanyinya [ District: Nyarugenge ]</option>
+														<option value="377">124. Kanzenze [ District: Rubavu ]</option>
+														<option value="350">125. Karago [ District: Nyabihu ]</option>
+														<option value="70">126. Karama [ District: Nyagatare ]</option>
+														<option value="234">127. Karama [ District: Huye ]</option>
+														<option value="247">128. Karama [ District: Kamonyi ]</option>
+														<option value="364">129. Karambi [ District: Nyamasheke ]</option>
+														<option value="156">130. Karambo [ District: Gakenke ]</option>
+														<option value="71">131. Karangazi [ District: Nyagatare ]</option>
+														<option value="324">132. Kareba [ District: Karongi ]</option>
+														<option value="56">133. Karembo [ District: Ngoma ]</option>
+														<option value="85">134. Karenge [ District: Rwamagana ]</option>
+														<option value="365">135. Karengera [ District: Nyamasheke ]</option>
+														<option value="72">136. Katabagemu [ District: Nyagatare ]</option>
+														<option value="338">137. Kavumu [ District: Ngororero ]</option>
+														<option value="248">138. Kayenzi [ District: Kamonyi ]</option>
+														<option value="249">139. Kayumbu [ District: Kamonyi ]</option>
+														<option value="57">140. Kazo [ District: Ngoma ]</option>
+														<option value="260">141. Kibangu [ District: Muhanga ]</option>
+														<option value="412">142. Kibeho [ District: Nyaruguru ]</option>
+														<option value="223">143. Kibilizi [ District: Gisagara ]</option>
+														<option value="290">144. Kibirizi [ District: Nyanza ]</option>
+														<option value="275">145. Kibirizi [ District: Nyamagabe ]</option>
+														<option value="276">146. Kibumbwe [ District: Nyamagabe ]</option>
+														<option value="58">147. Kibungo [ District: Ngoma ]</option>
+														<option value="116">148. Kicukiro [ District: Kicukiro ]</option>
+														<option value="86">149. Kigabiro [ District: Rwamagana ]</option>
+														<option value="123">150. Kigali [ District: Nyarugenge ]</option>
+														<option value="53">151. Kigarama [ District: Kirehe ]</option>
+														<option value="117">152. Kigarama [ District: Kicukiro ]</option>
+														<option value="224">153. Kigembe [ District: Gisagara ]</option>
+														<option value="401">154. Kigeyo [ District: Rutsiro ]</option>
+														<option value="44">155. Kigina [ District: Kirehe ]</option>
+														<option value="235">156. Kigoma [ District: Huye ]</option>
+														<option value="291">157. Kigoma [ District: Nyanza ]</option>
+														<option value="108">158. Kimihurura [ District: Gasabo ]</option>
+														<option value="109">159. Kimironko [ District: Gasabo ]</option>
+														<option value="124">160. Kimisagara [ District: Nyarugenge ]</option>
+														<option value="193">161. Kimonyi [ District: Musanze ]</option>
+														<option value="313">162. Kinazi [ District: Ruhango ]</option>
+														<option value="236">163. Kinazi [ District: Huye ]</option>
+														<option value="194">164. Kinigi [ District: Musanze ]</option>
+														<option value="209">165. Kinihira [ District: Rulindo ]</option>
+														<option value="314">166. Kinihira [ District: Ruhango ]</option>
+														<option value="139">167. Kinoni [ District: Burera ]</option>
+														<option value="351">168. Kintobo [ District: Nyabihu ]</option>
+														<option value="140">169. Kinyababa [ District: Burera ]</option>
+														<option value="102">170. Kinyinya [ District: Gasabo ]</option>
+														<option value="21">171. Kiramuruzi [ District: Gatsibo ]</option>
+														<option value="45">172. Kirehe [ District: Kirehe ]</option>
+														<option value="366">173. Kirimbi [ District: Nyamasheke ]</option>
+														<option value="210">174. Kisaro [ District: Rulindo ]</option>
+														<option value="277">175. Kitabi [ District: Nyamagabe ]</option>
+														<option value="301">176. Kivu [ District: Nyaruguru ]</option>
+														<option value="402">177. Kivumu [ District: Rutsiro ]</option>
+														<option value="157">178. Kivuruga [ District: Gakenke ]</option>
+														<option value="141">179. Kivuye [ District: Burera ]</option>
+														<option value="69">180. Kiyombe [ District: Nyagatare ]</option>
+														<option value="261">181. Kiyumba [ District: Muhanga ]</option>
+														<option value="22">182. Kiziguro [ District: Gatsibo ]</option>
+														<option value="367">183. Macuba [ District: Nyamasheke ]</option>
+														<option value="125">184. Mageragere [ District: Nyarugenge ]</option>
+														<option value="46">185. Mahama [ District: Kirehe ]</option>
+														<option value="368">186. Mahembe [ District: Nyamasheke ]</option>
+														<option value="225">187. Mamba [ District: Gisagara ]</option>
+														<option value="403">188. Manihira [ District: Rutsiro ]</option>
+														<option value="173">189. Manyagiro [ District: Gicumbi ]</option>
+														<option value="237">190. Maraba [ District: Huye ]</option>
+														<option value="5">191. Mareba [ District: Bugesera ]</option>
+														<option value="118">192. Masaka [ District: Kicukiro ]</option>
+														<option value="211">193. Masoro [ District: Rulindo ]</option>
+														<option value="299">194. Mata [ District: Nyaruguru ]</option>
+														<option value="158">195. Mataba [ District: Gakenke ]</option>
+														<option value="73">196. Matimba [ District: Nyagatare ]</option>
+														<option value="339">197. Matyazo [ District: Ngororero ]</option>
+														<option value="6">198. Mayange [ District: Bugesera ]</option>
+														<option value="238">199. Mbazi [ District: Huye ]</option>
+														<option value="278">200. Mbazi [ District: Nyamagabe ]</option>
+														<option value="212">201. Mbogo [ District: Rulindo ]</option>
+														<option value="315">202. Mbuye [ District: Ruhango ]</option>
+														<option value="74">203. Mimuli [ District: Nyagatare ]</option>
+														<option value="159">204. Minazi [ District: Gakenke ]</option>
+														<option value="174">205. Miyove [ District: Gicumbi ]</option>
+														<option value="47">206. Mpanga [ District: Kirehe ]</option>
+														<option value="326">207. Mubuga [ District: Karongi ]</option>
+														<option value="378">208. Mudende [ District: Rubavu ]</option>
+														<option value="279">209. Mugano [ District: Nyamagabe ]</option>
+														<option value="394">210. Muganza [ District: Rusizi ]</option>
+														<option value="307">211. Muganza [ District: Nyaruguru ]</option>
+														<option value="226">212. Muganza [ District: Gisagara ]</option>
+														<option value="59">213. Mugesera [ District: Ngoma ]</option>
+														<option value="250">214. Mugina [ District: Kamonyi ]</option>
+														<option value="227">215. Mugombwa [ District: Gisagara ]</option>
+														<option value="153">216. Mugunga [ District: Gakenke ]</option>
+														<option value="340">217. Muhanda [ District: Ngororero ]</option>
+														<option value="262">218. Muhanga [ District: Muhanga ]</option>
+														<option value="87">219. Muhazi [ District: Rwamagana ]</option>
+														<option value="126">220. Muhima [ District: Nyarugenge ]</option>
+														<option value="160">221. Muhondo [ District: Gakenke ]</option>
+														<option value="341">222. Muhororo [ District: Ngororero ]</option>
+														<option value="195">223. Muhoza [ District: Musanze ]</option>
+														<option value="23">224. Muhura [ District: Gatsibo ]</option>
+														<option value="75">225. Mukama [ District: Nyagatare ]</option>
+														<option value="352">226. Mukamira [ District: Nyabihu ]</option>
+														<option value="176">227. Mukarange [ District: Gicumbi ]</option>
+														<option value="33">228. Mukarange [ District: Kayonza ]</option>
+														<option value="228">229. Mukindo [ District: Gisagara ]</option>
+														<option value="292">230. Mukingo [ District: Nyanza ]</option>
+														<option value="177">231. Muko [ District: Gicumbi ]</option>
+														<option value="196">232. Muko [ District: Musanze ]</option>
+														<option value="404">233. Mukura [ District: Rutsiro ]</option>
+														<option value="239">234. Mukura [ District: Huye ]</option>
+														<option value="300">235. Munini [ District: Nyaruguru ]</option>
+														<option value="88">236. Munyaga [ District: Rwamagana ]</option>
+														<option value="89">237. Munyiginya [ District: Rwamagana ]</option>
+														<option value="60">238. Murama [ District: Ngoma ]</option>
+														<option value="34">239. Murama [ District: Kayonza ]</option>
+														<option value="24">240. Murambi [ District: Gatsibo ]</option>
+														<option value="325">241. Murambi [ District: Karongi ]</option>
+														<option value="213">242. Murambi [ District: Rulindo ]</option>
+														<option value="353">243. Muringa [ District: Nyabihu ]</option>
+														<option value="405">244. Murunda [ District: Rutsiro ]</option>
+														<option value="35">245. Murundi [ District: Kayonza ]</option>
+														<option value="395">246. Mururu [ District: Rusizi ]</option>
+														<option value="251">247. Musambira [ District: Kamonyi ]</option>
+														<option value="280">248. Musange [ District: Nyamagabe ]</option>
+														<option value="197">249. Musanze [ District: Musanze ]</option>
+														<option value="406">250. Musasa [ District: Rutsiro ]</option>
+														<option value="48">251. Musaza [ District: Kirehe ]</option>
+														<option value="281">252. Musebeya [ District: Nyamagabe ]</option>
+														<option value="7">253. Musenyi [ District: Bugesera ]</option>
+														<option value="229">254. Musha [ District: Gisagara ]</option>
+														<option value="90">255. Musha [ District: Rwamagana ]</option>
+														<option value="76">256. Musheli [ District: Nyagatare ]</option>
+														<option value="49">257. Mushikiri [ District: Kirehe ]</option>
+														<option value="263">258. Mushishiro [ District: Muhanga ]</option>
+														<option value="407">259. Mushonyi [ District: Rutsiro ]</option>
+														<option value="408">260. Mushubati [ District: Rutsiro ]</option>
+														<option value="282">261. Mushubi [ District: Nyamagabe ]</option>
+														<option value="61">262. Mutenderi [ District: Ngoma ]</option>
+														<option value="178">263. Mutete [ District: Gicumbi ]</option>
+														<option value="327">264. Mutuntu [ District: Karongi ]</option>
+														<option value="294">265. Muyira [ District: Nyanza ]</option>
+														<option value="161">266. Muyongwe [ District: Gakenke ]</option>
+														<option value="91">267. Muyumbu [ District: Rwamagana ]</option>
+														<option value="162">268. Muzo [ District: Gakenke ]</option>
+														<option value="316">269. Mwendo [ District: Ruhango ]</option>
+														<option value="36">270. Mwiri [ District: Kayonza ]</option>
+														<option value="8">271. Mwogo [ District: Bugesera ]</option>
+														<option value="92">272. Mwulire [ District: Rwamagana ]</option>
+														<option value="50">273. Nasho [ District: Kirehe ]</option>
+														<option value="342">274. Ndaro [ District: Ngororero ]</option>
+														<option value="37">275. Ndego [ District: Kayonza ]</option>
+														<option value="103">276. Ndera [ District: Gasabo ]</option>
+														<option value="230">277. Ndora [ District: Gisagara ]</option>
+														<option value="104">278. Nduba [ District: Gasabo ]</option>
+														<option value="142">279. Nemba [ District: Burera ]</option>
+														<option value="163">280. Nemba [ District: Gakenke ]</option>
+														<option value="252">281. Ngamba [ District: Kamonyi ]</option>
+														<option value="25">282. Ngarama [ District: Gatsibo ]</option>
+														<option value="302">283. Ngera [ District: Nyaruguru ]</option>
+														<option value="9">284. Ngeruka [ District: Bugesera ]</option>
+														<option value="303">285. Ngoma [ District: Nyaruguru ]</option>
+														<option value="240">286. Ngoma [ District: Huye ]</option>
+														<option value="214">287. Ngoma [ District: Rulindo ]</option>
+														<option value="343">288. Ngororero [ District: Ngororero ]</option>
+														<option value="119">289. Niboye [ District: Kicukiro ]</option>
+														<option value="396">290. Nkanka [ District: Rusizi ]</option>
+														<option value="283">291. Nkomane [ District: Nyamagabe ]</option>
+														<option value="397">292. Nkombo [ District: Rusizi ]</option>
+														<option value="198">293. Nkotsi [ District: Musanze ]</option>
+														<option value="398">294. Nkungu [ District: Rusizi ]</option>
+														<option value="215">295. Ntarabana [ District: Rulindo ]</option>
+														<option value="4">296. Ntarama [ District: Bugesera ]</option>
+														<option value="317">297. Ntongwe [ District: Ruhango ]</option>
+														<option value="295">298. Ntyazo [ District: Nyanza ]</option>
+														<option value="304">299. Nyabimata [ District: Nyaruguru ]</option>
+														<option value="264">300. Nyabinoni [ District: Muhanga ]</option>
+														<option value="409">301. Nyabirasi [ District: Rutsiro ]</option>
+														<option value="369">302. Nyabitekeri [ District: Nyamasheke ]</option>
+														<option value="77">303. Nyagatare [ District: Nyagatare ]</option>
+														<option value="26">304. Nyagihanga [ District: Gatsibo ]</option>
+														<option value="296">305. Nyagisozi [ District: Nyanza ]</option>
+														<option value="305">306. Nyagisozi [ District: Nyaruguru ]</option>
+														<option value="127">307. Nyakabanda [ District: Nyarugenge ]</option>
+														<option value="414">308. Nyakabuye [ District: Rusizi ]</option>
+														<option value="413">309. NYAKARENZO [ District: Rusizi ]</option>
+														<option value="93">310. Nyakariro [ District: Rwamagana ]</option>
+														<option value="379">311. Nyakiliba [ District: Rubavu ]</option>
+														<option value="265">312. Nyamabuye [ District: Muhanga ]</option>
+														<option value="10">313. Nyamata [ District: Bugesera ]</option>
+														<option value="38">314. Nyamirama [ District: Kayonza ]</option>
+														<option value="128">315. Nyamirambo [ District: Nyarugenge ]</option>
+														<option value="179">316. Nyamiyaga [ District: Gicumbi ]</option>
+														<option value="253">317. Nyamiyaga [ District: Kamonyi ]</option>
+														<option value="51">318. Nyamugari [ District: Kirehe ]</option>
+														<option value="380">319. Nyamyumba [ District: Rubavu ]</option>
+														<option value="344">320. Nyange [ District: Ngororero ]</option>
+														<option value="199">321. Nyange [ District: Musanze ]</option>
+														<option value="180">322. Nyankenke [ District: Gicumbi ]</option>
+														<option value="231">323. Nyanza [ District: Gisagara ]</option>
+														<option value="254">324. Nyarubaka [ District: Kamonyi ]</option>
+														<option value="52">325. Nyarubuye [ District: Kirehe ]</option>
+														<option value="11">326. Nyarugenge [ District: Bugesera ]</option>
+														<option value="130">327. Nyarugenge [ District: Nyarugenge ]</option>
+														<option value="120">328. Nyarugunga [ District: Kicukiro ]</option>
+														<option value="266">329. Nyarusange [ District: Muhanga ]</option>
+														<option value="381">330. Nyundo [ District: Rubavu ]</option>
+														<option value="94">331. Nzige [ District: Rwamagana ]</option>
+														<option value="354">332. Rambura [ District: Nyabihu ]</option>
+														<option value="370">333. Rangiro [ District: Nyamasheke ]</option>
+														<option value="200">334. Remera [ District: Musanze ]</option>
+														<option value="27">335. Remera [ District: Gatsibo ]</option>
+														<option value="110">336. Remera [ District: Gasabo ]</option>
+														<option value="62">337. Remera [ District: Ngoma ]</option>
+														<option value="12">338. Rilima [ District: Bugesera ]</option>
+														<option value="267">339. Rongi [ District: Muhanga ]</option>
+														<option value="382">340. Rubavu [ District: Rubavu ]</option>
+														<option value="181">341. Rubaya [ District: Gicumbi ]</option>
+														<option value="328">342. Rubengera [ District: Karongi ]</option>
+														<option value="95">343. Rubona [ District: Rwamagana ]</option>
+														<option value="329">344. Rugabano [ District: Karongi ]</option>
+														<option value="255">345. Rugalika [ District: Kamonyi ]</option>
+														<option value="330">346. Ruganda [ District: Karongi ]</option>
+														<option value="143">347. Rugarama [ District: Burera ]</option>
+														<option value="28">348. Rugarama [ District: Gatsibo ]</option>
+														<option value="144">349. Rugendabari [ District: Burera ]</option>
+														<option value="268">350. Rugendabari [ District: Muhanga ]</option>
+														<option value="355">351. Rugera [ District: Nyabihu ]</option>
+														<option value="383">352. Rugerero [ District: Rubavu ]</option>
+														<option value="318">353. Ruhango [ District: Ruhango ]</option>
+														<option value="410">354. Ruhango [ District: Rutsiro ]</option>
+														<option value="371">355. Ruharambuga [ District: Nyamasheke ]</option>
+														<option value="241">356. Ruhashya [ District: Huye ]</option>
+														<option value="306">357. Ruheru [ District: Nyaruguru ]</option>
+														<option value="13">358. Ruhuha [ District: Bugesera ]</option>
+														<option value="145">359. Ruhunde [ District: Burera ]</option>
+														<option value="39">360. Rukara [ District: Kayonza ]</option>
+														<option value="63">361. Rukiri [ District: Ngoma ]</option>
+														<option value="256">362. Rukoma [ District: Kamonyi ]</option>
+														<option value="78">363. Rukomo [ District: Nyagatare ]</option>
+														<option value="182">364. Rukomo [ District: Gicumbi ]</option>
+														<option value="216">365. Rukozo [ District: Rulindo ]</option>
+														<option value="64">366. Rukumberi [ District: Ngoma ]</option>
+														<option value="164">367. Ruli [ District: Gakenke ]</option>
+														<option value="257">368. Runda [ District: Kamonyi ]</option>
+														<option value="308">369. Ruramba [ District: Nyaruguru ]</option>
+														<option value="40">370. Ruramira [ District: Kayonza ]</option>
+														<option value="356">371. Rurembo [ District: Nyabihu ]</option>
+														<option value="65">372. Rurenge [ District: Ngoma ]</option>
+														<option value="146">373. Rusarabuge [ District: Burera ]</option>
+														<option value="165">374. Rusasa [ District: Gakenke ]</option>
+														<option value="242">375. Rusatira [ District: Huye ]</option>
+														<option value="411">376. Rusebeya [ District: Rutsiro ]</option>
+														<option value="309">377. Rusenge [ District: Nyaruguru ]</option>
+														<option value="183">378. Rushaki [ District: Gicumbi ]</option>
+														<option value="166">379. Rushashi [ District: Gakenke ]</option>
+														<option value="217">380. Rusiga [ District: Rulindo ]</option>
+														<option value="105">381. Rusororo [ District: Gasabo ]</option>
+														<option value="184">382. Rutare [ District: Gicumbi ]</option>
+														<option value="106">383. Rutunga [ District: Gasabo ]</option>
+														<option value="185">384. Ruvune [ District: Gicumbi ]</option>
+														<option value="293">385. Rwabicuma [ District: Nyanza ]</option>
+														<option value="186">386. Rwamiko [ District: Gicumbi ]</option>
+														<option value="243">387. Rwaniro [ District: Huye ]</option>
+														<option value="331">388. Rwankuba [ District: Karongi ]</option>
+														<option value="201">389. Rwaza [ District: Musanze ]</option>
+														<option value="79">390. Rwempasha [ District: Nyagatare ]</option>
+														<option value="147">391. Rwerere [ District: Burera ]</option>
+														<option value="14">392. Rweru [ District: Bugesera ]</option>
+														<option value="129">393. Rwezamenyo [ District: Nyarugenge ]</option>
+														<option value="29">394. Rwimbogo [ District: Gatsibo ]</option>
+														<option value="80">395. Rwimiyaga [ District: Nyagatare ]</option>
+														<option value="41">396. Rwinkwavu [ District: Kayonza ]</option>
+														<option value="66">397. Sake [ District: Ngoma ]</option>
+														<option value="232">398. Save [ District: Gisagara ]</option>
+														<option value="187">399. Shagasha [ District: Gicumbi ]</option>
+														<option value="372">400. Shangi [ District: Nyamasheke ]</option>
+														<option value="202">401. Shingiro [ District: Musanze ]</option>
+														<option value="15">402. Shyara [ District: Bugesera ]</option>
+														<option value="357">403. Shyira [ District: Nyabihu ]</option>
+														<option value="269">404. Shyogwe [ District: Muhanga ]</option>
+														<option value="218">405. Shyorongi [ District: Rulindo ]</option>
+														<option value="244">406. Simbi [ District: Huye ]</option>
+														<option value="345">407. Sovu [ District: Ngororero ]</option>
+														<option value="81">408. Tabagwe [ District: Nyagatare ]</option>
+														<option value="285">409. Tare [ District: Nyamagabe ]</option>
+														<option value="219">410. Tumba [ District: Rulindo ]</option>
+														<option value="245">411. Tumba [ District: Huye ]</option>
+														<option value="332">412. Twumba [ District: Karongi ]</option>
+														<option value="286">413. Uwinkingi [ District: Nyamagabe ]</option>
+														<option value="67">414. Zaza [ District: Ngoma ]</option>
+								 
+				 </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-SctId-container"><span class="select2-selection__rendered" id="select2-SctId-container" title="43. Cyuve [ District: Musanze ]"><span class="select2-selection__clear">×</span>43. Cyuve [ District: Musanze ]</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+				</div>
+				</div>
+				
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label"><b style="color:white;">Country of Birth</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<select id="BrtCntryId" name="BrtCntryId" class="slct select2-hidden-accessible" style="width: 100%;" data-placeholder="Country of Birth" required="" tabindex="-1" aria-hidden="true">
+					<option value=""></option>
+												<option value="160">1. Rwanda</option>
+								 
+				 </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-BrtCntryId-container"><span class="select2-selection__rendered" id="select2-BrtCntryId-container" title="1. Rwanda"><span class="select2-selection__clear">×</span>1. Rwanda</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+				</div>
+				</div>
+				
+				
+				<!--
+				<div class="form-group">
+				<label class="col-md-12 control-label" ><b style="color:white;">Father Full Name</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<input type="text" id="fatherNme" name="fatherNme" placeholder="Write Father Full Name" class="form-control" required style="height:30px;font-size:12px;">
+				</div>
+				</div>
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label" ><b style="color:white;">Mother Full Name</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<input type="text" id="motherNme" name="motherNme" placeholder="Write Mother Full Name" class="form-control" required style="height:30px;font-size:12px;">
+				</div>
+				</div>
+				
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label" ><b style="color:white;">Guardian Phone number(starting from: 07)</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<input type="text" id="GrdPhne" name="GrdPhne" placeholder="Write Guardian Phone number (no spaces between numbers)" class="form-control" required style="height:30px;font-size:12px;">
+				</div>
+				</div>
+				!-->
+				 
+				 
+                <!--<input type="submit" value="Click to login" class="btn btn-success btn-block mb-3">!-->				
+				</div>
+				
+				
+				
+				<!--
+				<div class="col-md-4">
+				<center><b style="color:white;font-size:17px;">Applicant Medical History</b></center>
+				<hr class="col-md-12" style="background-color:white;"/>
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label" ><b style="color:white;font-size:12px;">Have you had any significant or serious illness ?</b> <span class="text-danger" style="color:red;">*</span></label>
+                <div class="form-group ">
+						<select id="IlnsStatus" name="IlnsStatus" class="slct" style="width: 100%;" data-placeholder="Select status" required>
+							<option value=""></option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+						</select>
+                </div>
+				</div>
+				
+				<div name='display_iLnsCmnt' id='display_iLnsCmnt'></div>
+				
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label" ><b style="color:white;">High blood pressure</b> <span class="text-danger" style="color:red;">*</span></label>
+                <div class="form-group ">
+						<select id="BldPsrStatus" name="BldPsrStatus" class="slct" style="width: 100%;" data-placeholder="Select status" required>
+							<option value=""></option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+						</select>
+                </div>
+				</div>
+				
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label" ><b style="color:white;">Diabetes</b> <span class="text-danger" style="color:red;">*</span></label>
+                <div class="form-group ">
+						<select id="DbtStatus" name="DbtStatus" class="slct" style="width: 100%;" data-placeholder="Select status" required>
+							<option value=""></option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+						</select>
+                </div>
+				</div>
+				
+				</div>
+				!-->
+				
+				
+				
+				
+				<div class="col-md-6">
+				
+				<center><b style="color:white;font-size:17px;">Applicant Campus Info &amp; Documents</b></center>
+				<hr class="col-md-12" style="background-color:white;">
+				<div class="row">
+				
+				
+				
+				<div class="col-md-12">
+				<b style="color:#DEB887;">Campus &amp; Documents Info</b><br><br>
+				
+				<div class="form-group">
+				<label class="col-md-12 control-label"><b style="color:white;">Which Campus you are applying  for ?</b> <span class="text-danger" style="color:red;">*</span></label>
+				<div class="form-group">
+				<select id="CmpId" name="CmpId" class="slct select2-hidden-accessible" style="width: 100%;" data-placeholder="Select Campus" required="" tabindex="-1" aria-hidden="true">
+					<option value=""></option>
+												<option value="2">1. KIGALI Campus</option>
+														<option value="1">2. NYAGATARE Campus</option>
+								 
+				 </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-CmpId-container"><span class="select2-selection__rendered" id="select2-CmpId-container" title="1. KIGALI Campus"><span class="select2-selection__clear">×</span>1. KIGALI Campus</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+				</div>
+				</div>
+				
+				
+				<div name="display_StdntTyp" id="display_StdntTyp"><script>
+$(".slct").select2( {
+	placeholder: "",
+	allowClear: true
+	} );
+</script>
+
+
+<div class="form-group">
+<label class="col-md-12 control-label"><b style="color:white;">Choose Option</b> <span class="text-danger" style="color:red;">*</span></label>
+<div class="form-group">
+<select id="SpcOptnId" name="SpcOptnId" class="slct select2-hidden-accessible" style="width: 100%;" data-placeholder="Select Option" required="" tabindex="-1" aria-hidden="true">
+<option value=""></option>
+		<option value="21">1. Bachelor of film making and Film Production</option>
+				<option value="10">2. Bachelor of Leisure, Tourism and Hotel Management</option>
+				<option value="19">3. Bachelor of Mass Communication</option>
+			 
+</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-SpcOptnId-container"><span class="select2-selection__rendered" id="select2-SpcOptnId-container"><span class="select2-selection__placeholder">Select Option</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+</div>
+</div>
+
+
+
+<div style="padding: 20px;border-radius: 8px;border: 1px solid #73AD21;margin-top:1%;margin-bottom:1%;">
+
+<p style="font-family: &#39;Times New Roman&#39;, Times, serif;font-size: 13px;font-weight:bold;color:#FFF8DC;">
+<b style="font-size: 20px;color:#FFF8DC;"><u>Document(s) to upload:</u></b><br>
+<!--<br />1. Upload High School Certificate or result slip (if you are applying for Year 1)!-->
+<br>1. Upload Copy of NATIONAL ID
+<br>2. Upload Copy of High school certificate S6 or Result slip
+<br>3. Upload Copy of Bank slip payment of 5,000 FRW (Application fees : 00058-00672691-39 Bank of Kigali)
+<br><br>
+<b style="font-size:16px;color:#FFF;"><u>NOTE</u> : </b> 
+<b style="font-size:14px;color:#FFEBCD;"> 
+Document(s) to upload, must be in PDF or IMAGE format, and try to upload readable files.
+</b>
+
+</p>
+
+
+<div class="form-group" style="margin-top:5%;">
+<label class="col-md-12 control-label"><b style="color:white;">Attach NATIONAL ID  [ Front side ] </b><span class="text-danger" style="color:red;">*</span></label>
+<div class="form-group">
+	<input type="file" name="files_2" id="files_2" accept=".pdf, image/*" class="form-control" required="">
+</div>
+</div>
+
+
+<div class="form-group" style="margin-top:5%;">
+<label class="col-md-12 control-label"><b style="color:white;">Attach High school certificate S6 or Result slip<!-- [ You must have at least 2 principal passes ] !--></b><span class="text-danger" style="color:red;">*</span></label>
+<div class="form-group">
+	<input type="file" name="files_3" id="files_3" accept=".pdf, image/*" class="form-control" required="">
+</div>
+</div>
+
+
+<div class="form-group" style="margin-top:5%;">
+<label class="col-md-12 control-label"><b style="color:white;">Attach Bank slip payment of 5,000 FRW [ Only pay bank slip is accepted - No refundable ] </b><span class="text-danger" style="color:red;">*</span></label>
+<div class="form-group">
+	<input type="file" name="files_4" id="files_4" accept=".pdf, image/*" class="form-control" required="">
+</div>
+</div>
+
+
+<!--
+<div class="form-group" style='margin-top:3%;'>
+<label class="col-md-12 control-label" ><b style="color:white;">1. Upload Copy of NATIONAL ID</b><span class="text-danger" style="color:red;">*</span></label>
+<div class="form-group">
+	<input type="file" name="file_NID" accept=".pdf, image/*" class="form-control" required>
+</div>
+</div>
+
+
+<div class="form-group" style='margin-top:3%;'>
+<label class="col-md-12 control-label" ><b style="color:white;">2. Upload Copy of High school certificate S6</b><span class="text-danger" style="color:red;">*</span></label>
+<div class="form-group">
+	<input type="file" name="file_S6" accept=".pdf, image/*" class="form-control" required>
+</div>
+</div>
+
+
+<div class="form-group" style='margin-top:3%;'>
+<label class="col-md-12 control-label" ><b style="color:white;">3. Upload Copy of Application fees (5,000 FRW)</b><span class="text-danger" style="color:red;">*</span></label>
+<div class="form-group">
+	<input type="file" name="file_Fees" accept=".pdf, image/*" class="form-control" required>
+</div>
+</div>
+!-->
+
+
+</div>
+
+
+
+
+
+
+<input type="hidden" id="Cmp_Id" name="Cmp_Id" placeholder="" class="form-control" value="2" style="height:30px;font-size:12px;">
+<input type="hidden" id="PrgTpeId" name="PrgTpeId" placeholder="" class="form-control" value="1" style="height:30px;font-size:12px;">
+	</div>
+				
+				
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				</div>
+				
+				
+				
+				</div>
+				
+				
+				<div class="col-md-12">
+				<center>
+				
+				<!--
+				<p>
+				<br />
+				<b style="font-size:16px;color:#EC7063;"><u>NOTE</u> : </b> 
+				<b style="font-size:14px;color:#FFEBCD;"> 
+				Before submission, you have to pay Application fee of 5,000 FRW on : 00058-00672691-39 Bank of Kigali.
+				</b>
+				</p>
+				!-->
+				
+				<br>
+				<button type="submit" class="btn btn-default btn btn-success btn-block mb-3" style="background-color: #004466;color:#ffffff;border-radius: 4px;width:auto;height:40px;" id=""><b style="">Submit application</b></button>
+				</center>
+				</div>
+				<div class="col-md-2"><span id="load5"></span></div>
+				<div id="DisplayResult" class="col-md-12" style="margin-bottom:2%;margin-top:4%;"></div>
+				</form>	
+				
+								
+				
+				
+				
+				
+				
+					
+			<!--
+			<div class="d-flex justify-content-between mt-4">
+				<p class="text-white text-center font-weight-light">Login with</p>
+				<p class="text-center mb-0">
+					<a href="#" class="social-login-btn icon-fb"><i class="mdi mdi-facebook-box"></i></a>
+					<a href="#" class="social-login-btn icon-twitter"><i class="mdi mdi-twitter"></i></a>
+					<a href="#" class="social-login-btn icon-gmail"><i class="mdi mdi-gmail"></i></a>
+				</p>
+			</div>
+			!-->
+			
+			
+        </div>
+    </div>
+   <footer>
+	<div class="container">
+		<nav class="navbar navbar-dark bg-transparent navbar-expand footer-navbar d-block d-sm-flex text-center">
+			<span class="navbar-text"><b style="color:#DEB887;font-family: centaur;"><b>© 2025 EAST AFRICAN UNIVERSITY RWANDA - MIS</b></b></span>
+			<div class="navbar-nav ml-auto justify-content-center">
+				<a class="nav-link nav-icon icon-phone" href="https://mis.eaur.ac.rw/aplySchlrshp.php?Apply#"><i class="mdi mdi-phone"></i><b style="color:#DEB887;font-family: centaur;"> <b>+250 786 976 616 | +250 782 310 262</b></b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;
+				<a class="nav-link nav-icon icon-phone" href="https://mis.eaur.ac.rw/aplySchlrshp.php?Apply#"><i class="mdi mdi-email"></i><b style="color:#DEB887;font-family: centaur;"> <b>infos@eaur.ac.rw </b></b></a>
+				
+				<!--
+				<a class="nav-link nav-icon icon-phone" href="#"><i class="mdi mdi-phone"></i><b style="color:#DEB887;font-family: centaur;"> <b>+250 786 976 616 | +250 782 310 262</b></b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;
+				<a class="nav-link nav-icon icon-phone" href="#"><i class="mdi mdi-email"></i><b style="color:#DEB887;font-family: centaur;"> <b>infos@eaur.ac.rw </b></b></a>
+				!-->
+				
+				<!--
+				<a href="#" class="nav-link">Terms</a>
+				<a href="#" class="nav-link">Privacy</a>
+				!-->
+			</div>
+		</nav>
+	</div>
+</footer>    <script src="./EAUR - MIS_files/jquery.min.js.download"></script>
+    <script src="./EAUR - MIS_files/popper.min.js.download"></script>
+    <script src="./EAUR - MIS_files/bootstrap.min.js.download"></script>
+
+<script src="./EAUR - MIS_files/jquery.min(1).js.download"></script>
+<script src="./EAUR - MIS_files/select2.min.js.download"></script>
+
+<script>
+$(".slct").select2( {
+	placeholder: "",
+	allowClear: true
+	} );
+</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+$("#IlnsStatus").change(function () {
+	$(this).after('<div id="loader"><img src="img/loading.gif" alt="loading...." width="30" height="30" /></div>');
+	$.get('load_IlnsCmnt.php?IlnsStatus=' + $(this).val(), function (data) {
+	 $("#display_iLnsCmnt").html(data);
+		$('#loader').slideUp(910, function () {
+			$(this).remove();
+		});
+	});
+});
+
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+$("#CmpId").change(function () {
+	$(this).after('<div id="loader"><img src="img/loading.gif" alt="loading...." width="30" height="30" /></div>');
+	var PgrType = $('#PgrType').val();
+	$.get('load_StdntTypSchlr.php?CmpId=' + $(this).val() + '&PgrType=' + PgrType, function (data) {
+	 $("#display_StdntTyp").html(data);
+		$('#loader').slideUp(910, function () {
+			$(this).remove();
+		});
+	});
+});
+
+});
+</script>
+
+<script>
+var keepformdata=null;
+$(document).ready(function(){
+$("#SbmtApRqst").submit(function(e){
+e.preventDefault();
+var formdata = new FormData(this);
+keepformdata=$( this ).serialize();
+$('#loaded').hide();
+$('#load5').html("<b style='color:white;font-size:15px;'><img src='img/loading.gif' width='50' /> Please wait ....</b>").fadeIn('fast');
+$.ajax({
+	url: "SbmtApRqstSchlr.php",
+	type: "POST",
+	data: formdata,
+	mimeTypes:"multipart/form-data",
+	contentType: false,
+	cache: false,
+	processData: false,
+	success: function(formData){
+	$('#load5').fadeOut('fast');
+	$("#DisplayResult").html(formData);
+	//$('#printsinglepdf').show();
+	},error: function(){
+		alert("okey");
+	}
+ });
+});    
+});
+</script>
+
+
+</body></html>
